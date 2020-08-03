@@ -17,5 +17,5 @@ std::array<float,NUM_OF_MEASURE_TYPES> telematics_to_inventory( int vehicle_id, 
     vehicle_status.at(type) = measured_val;
     vehicle_inventory[vehicle_id] = vehicle_status;
 
-    return vehicle_status;
+    return vehicle_inventory[vehicle_id];
 }
