@@ -1,5 +1,7 @@
 
 #include <array>
+#include <cmath>
+
 enum measure{
     motor_temp,
     battery_pc,
